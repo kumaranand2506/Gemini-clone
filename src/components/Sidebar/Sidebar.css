@@ -1,0 +1,70 @@
+.sidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #282a2c;
+    padding: 20px 15px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:#6e7379;
+    
+}
+.sidebar img{
+    width: 20px;
+    filter: brightness(0) invert(1);
+
+}
+.sidebar .menu{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebar .new-chat{
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #202123;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.sidebar .recent{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sidebar .recent-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sidebar .recent-entery{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.sidebar .recent-entery:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.sidebar .new-chat:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
